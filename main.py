@@ -18,7 +18,7 @@ game.fps = 60
 
 GameTime = 0 
 GameHistory = []
-renderFlag = False
+renderFlag = True
 
 ddqn_agent = DDQNAgent(
     alpha=0.0005, gamma=0.99,
